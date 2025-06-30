@@ -16,6 +16,7 @@
     font-style: normal;
     font-size: 16px;
 }
+
 .titulo-logo {
   font-family: 'Megrim', cursive;
   font-size: 48px;
@@ -56,3 +57,22 @@
 .bg-footer {
   background-color: #EBFFD8;
 }
+
+
+
+.marcas{
+    font-size: 14px;
+  }
+
+  .unidades{
+    font-size: 14px;
+    color: red;
+    text-align:right;
+  }
+
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+   
