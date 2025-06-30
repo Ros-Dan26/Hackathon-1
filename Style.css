@@ -3,4 +3,16 @@ html {
     width: 100%;
   }
 
-  
+  .marcas{
+    font-size: 14px;
+  }
+
+  .resenas{
+    font-size: 14px;
+  }
+
+  .unidades{
+    font-size: 12px;
+    color: red;
+    text-align:right;
+  }
