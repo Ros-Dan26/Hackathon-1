@@ -59,16 +59,141 @@
 }
 
 
+/* CONTENEDOR VIDEO */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* pantalla completa */
+  overflow: hidden;
+}
 
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  filter: brightness(0.5); /* opcional: oscurece el fondo para que el texto destaque */
+}
+
+.video-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom-btn:hover {
+  background-color: #8DBCC7 !important; /* verde bootstrap */
+  border-color: #8DBCC7;
+}
+
+/* RESEÑAS */
+.fuenteSub {  
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+#resenias {
+  padding: 40px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+.carusel-res {
+  position: relative;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.res {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  transition: opacity 0.5s ease;
+}
+
+.res.activa {
+  display: flex;
+}
+
+.review-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.texto-res {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.nombre-dep {
+  font-weight: bold;
+  font-family: "Tektur", sans-serif;
+  margin-bottom: 0.25rem;
+}
+
+.rol {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background: #555;
+}
+
+/* DESTACADOS */ 
 .marcas{
-    font-size: 14px;
-  }
+  font-size: 14px;
+}
 
-  .unidades{
-    font-size: 14px;
-    color: red;
-    text-align:right;
-  }
+.unidades{
+  font-size: 14px;
+  color: red;
+  text-align:right;
+}
 
   .navbar-center {
     position: absolute;
@@ -76,3 +201,8 @@
     transform: translatex(-50%);
   }
    
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
