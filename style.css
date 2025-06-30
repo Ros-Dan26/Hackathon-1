@@ -143,17 +143,17 @@
 }
 
 .marcas{
-    font-size: 14px;
+  font-size: 14px;
 }
 
   .unidades{
-    font-size: 14px;
-    color: red;
-    text-align:right;
+  font-size: 14px;
+  color: red;
+  text-align:right;
 }
 
-  .navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
