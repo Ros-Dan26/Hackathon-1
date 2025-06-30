@@ -1,58 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPORT</title>
-    <!-- Enlace a Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Enlace a mi CSS -->
-    <link rel="stylesheet" href="/style.css">
-    <!-- Enlace a Fuentes Tektur y Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPORT</title>
+  <!-- Enlace a Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Enlace a mi CSS -->
+  <link rel="stylesheet" href="/style.css">
+  <!-- Enlace a Fuentes Tektur y Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <!-- NAVEGACIÓN/MENÚ -->
-    <nav class="navbar">
-        <!-- Aquí va tu menú de navegación -->
-    </nav>
+  <!-- NAVEGACIÓN/MENÚ -->
+  <nav class="navbar">
+    <!-- Aquí va tu menú de navegación -->
+  </nav>
 
-    <!-- PORTADA/HERO SECTION -->
-    <section id="portada">
-        <!-- Aquí va tu portada principal -->
-    </section>
+  <!-- PORTADA/HERO SECTION -->
+  <section id="portada">
+    <!-- Aquí va tu portada principal -->
+  </section>
 
-    <!-- OFERTAS DEL MES -->
-    <section id="ofertas">
-        <!-- Aquí van las ofertas del mes -->
-    </section>
+  <!-- OFERTAS DEL MES -->
+  <section id="ofertas">
+    <!-- Aquí van las ofertas del mes -->
+  </section>
 
-    <!-- RECUADRO ENVÍO GRATIS Y REGISTRO -->
-    <section id="envio-registro">
-        <!-- Aquí va el recuadro de envío gratis -->
-        <!-- Aquí va el formulario de registro -->
-    </section>
+  <!-- RECUADRO ENVÍO GRATIS Y REGISTRO -->
+  <section id="envio-registro">
+    <!-- Aquí va el recuadro de envío gratis -->
+    <!-- Aquí va el formulario de registro -->
+  </section>
 
-    <!-- PRODUCTOS DESTACADOS -->
-    <section id="destacados">
-        <!-- Aquí van los productos destacados -->
-    </section>
+  <!-- PRODUCTOS DESTACADOS -->
+  <section id="destacados">
+    <!-- Aquí van los productos destacados -->
+  </section>
 
-    <!-- RESEÑAS -->
-    <section id="resenas">
-        <!-- Aquí van las reseñas de clientes -->
-        <h1 class="fuenteTitulos">Pene</h1>
-    </section>
+  <!-- VIDEO -->
+  <section class="video-container">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="/Pic/videoDeporte.mp4" type="video/mp4">
+      Tu navegador no soporta video HTML5.
+    </video>
+    <div class="video-content">
+      <h1 class="fuenteTitulos">¡Llega el invierno a 5PORT!</h1>
+      <p class="fuenteTexto">Diseñada para tu confort.</p>
+      <button class="btn btn-dark custom-btn">Ver Productos</button>
+    </div>
+  </section>
+
+  <!-- RESEÑAS -->
+  <section id="resenias">
+    <!-- Aquí van las reseñas de clientes -->
+    <div>
+      <h1 class="fuenteTitulos text-center">Reseñas</h1>
+      <h2 class="fuenteSub text-center">Nuestros clientes mandan.</h2>
+    </div>
+    <div class="carusel-res">
+      <div class="res activa">
+        <img src="/Pic/reseñas1.jpg" alt="Foto de Leo Messi" class="review-img" />
+        <p class="texto-res">"Entrega casi inmediata y una gran variedad"</p>
+        <h3 class="nombre-dep">Leo Messi</h3>
+        <span class="rol">Futbolista</span>
+      </div>
+      <div class="res">
+        <img src="/Pic/reseñas2.jpg" alt="Foto de Michael Phelps" class="review-img" />
+        <p class="texto-res">"Muy buen servicio y productos de calidad. Lo recomiendo."</p>
+        <h3 class="nombre-dep">Angel Sepulveda</h3>
+        <span class="rol">Futbolista</span>
+      </div>
+      <div class="res">
+        <img src="/Pic/reseñas3.jpg" alt="Foto de Luis Sepúlveda" class="review-img" />
+        <p class="texto-res">"Me encantó la rapidez en la entrega y la atención al cliente."</p>
+        <h3 class="nombre-dep">Mariana Osorio</h3>
+        <span class="rol">Nadadora</span>
+      </div>
+
+      <button class="prev-btn">&#10094;</button>
+      <button class="next-btn">&#10095;</button>
+    </div>
+
 
     <!-- FOOTER -->
     <footer>
-        <!-- Aquí va el pie de página -->
+      <!-- Aquí va el pie de página -->
     </footer>
 
     <!-- Scripts de Bootstrap y mi JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="/script.js"></script>
 </body>
+
 </html>
