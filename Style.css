@@ -16,3 +16,9 @@ html {
     color: red;
     text-align:right;
   }
+
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
