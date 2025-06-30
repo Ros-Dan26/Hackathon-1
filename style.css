@@ -1,0 +1,18 @@
+.colorBlueGray { background-color: #8DBCC7 }
+.colorPastelCyan { color: #A4CCD9 }
+.colorPowderBlue { color: #C4E1E6 }
+.colorMintCream { color:#EBFFD8 }
+.colorBlanco { color: white }
+.colorNegro { color: black}
+
+.fuenteTitulos {
+    font-family: "Tektur", sans-serif;
+    font-size: 46;
+    font-weight: 700;
+ }
+.fuenteTexto {  
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
