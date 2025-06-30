@@ -7,12 +7,52 @@
 
 .fuenteTitulos {
     font-family: "Tektur", sans-serif;
-    font-size: 46;
+    font-size: 46px;
     font-weight: 700;
  }
 .fuenteTexto {  
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
     font-size: 16px;
+}
+.titulo-logo {
+  font-family: 'Megrim', cursive;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* COLORES */
+.bg-powder-blue { 
+    background-color:#C4E1E6 !important;
+
+}
+.colorPastelCyan { color: #A4CCD9 }
+.colorMintCream { color:#EBFFD8 }
+
+/* TIPOGRAFÍAS */
+.fuenteTitulos {
+    font-family: "Tektur", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+}
+.fuenteTexto {  
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .fuenteTitulos { font-size: 1.5rem; }
+    .fuenteTexto { font-size: 0.9rem; }
+}
+.btn-azul-personalizado {
+  background-color: #8DBCC7 !important;
+  border-color: #8DBCC7 !important;
+  color: white;
+}
+.bg-footer {
+  background-color: #EBFFD8;
 }
