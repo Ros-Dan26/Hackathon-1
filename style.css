@@ -18,6 +18,11 @@
 }
 
 /* CONTENEDOR VIDEO */
+.contenedor-vid {
+  padding: 50px;
+  width: 100%;
+  height: 100vh;
+}
 .video-container {
   position: relative;
   width: 100%;
@@ -60,8 +65,8 @@
     font-style: normal;
     font-size: 16px;
 }
-#resenias {
-  padding: 40px 0;
+.resenias {
+  padding: 100px;
   width: 90%;
   max-width: 1000px;
   margin: auto;
@@ -139,7 +144,7 @@
 }
 
 .prev-btn:hover, .next-btn:hover {
-  background: #555;
+  background: #A4CCD9;
 }
 
 /* DESTACADOS */ 
