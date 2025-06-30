@@ -1,3 +1,13 @@
+
+document.addEventListener('DOMContentLoaded', function () {
+  const boton = document.getElementById('botonRegistro');
+
+  boton.addEventListener('click', function () {
+    this.classList.remove('btn-dark');
+    this.classList.add('btn-azul-personalizado');
+    
+  });
+});
 const res = document.querySelectorAll('.res');
 const prevBtn = document.querySelector('.prev-btn'); 
 const nextBtn = document.querySelector('.next-btn');
