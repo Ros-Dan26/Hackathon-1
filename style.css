@@ -142,11 +142,12 @@
   background: #555;
 }
 
+/* DESTACADOS */ 
 .marcas{
   font-size: 14px;
 }
 
-  .unidades{
+.unidades{
   font-size: 14px;
   color: red;
   text-align:right;
