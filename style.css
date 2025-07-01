@@ -114,14 +114,15 @@
   margin: auto;
   overflow: hidden;
 }
+
 .carusel-res {
   position: relative;
   max-width: 500px;
   margin: 2rem auto;
   padding: 1rem;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 20px 10px 15px rgba(0,0,0,0.1);
   border-radius: 8px;
-  background: #fff;
+  background: white;
   overflow: hidden;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -163,27 +164,25 @@
   color: #777;
 }
 
+.botones{
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  gap: 7rem;                  
+  flex-wrap: wrap;          
+  padding: 1rem;
+}
+
 .prev-btn, .next-btn {
-  position: absolute;
-  top: 80%;
-  transform: translateY(-50%);
   background: black;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 50%;
-  font-size: 1rem;
-  user-select: none;
+  font-size: 1.2rem;
 }
 
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
-}
 
 .prev-btn:hover, .next-btn:hover {
   background: #A4CCD9;
@@ -200,12 +199,6 @@
   text-align:right;
 }
 
-  .navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-  }
-   
 .navbar-center {
   position: absolute;
   left: 50%;
