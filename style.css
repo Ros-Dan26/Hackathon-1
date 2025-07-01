@@ -105,7 +105,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .resenias {
@@ -166,10 +166,10 @@
 
 .botones{
   display: flex;
-  justify-content: center;   /* Centra los botones horizontalmente */
+  justify-content: center;   
   align-items: center;
-  gap: 7rem;                  /* Espacio entre botones */
-  flex-wrap: wrap;           /* Hace que los botones se acomoden si no caben */
+  gap: 7rem;                  
+  flex-wrap: wrap;          
   padding: 1rem;
 }
 
