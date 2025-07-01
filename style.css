@@ -107,6 +107,7 @@
     font-style: normal;
     font-size: 16px;
 }
+
 .resenias {
   padding: 100px;
   width: 90%;
@@ -114,14 +115,15 @@
   margin: auto;
   overflow: hidden;
 }
+
 .carusel-res {
   position: relative;
   max-width: 500px;
   margin: 2rem auto;
   padding: 1rem;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 20px 10px 15px rgba(0,0,0,0.1);
   border-radius: 8px;
-  background: #fff;
+  background: white;
   overflow: hidden;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -131,7 +133,6 @@
   display: none;
   flex-direction: column;
   align-items: center;
-  transition: opacity 0.5s ease;
 }
 
 .res.activa {
@@ -163,26 +164,23 @@
   color: #777;
 }
 
+.botones{
+  display: flex;
+  justify-content: center;   /* Centra los botones horizontalmente */
+  align-items: center;
+  gap: 7rem;                  /* Espacio entre botones */
+  flex-wrap: wrap;           /* Hace que los botones se acomoden si no caben */
+  padding: 1rem;
+}
+
 .prev-btn, .next-btn {
-  position: absolute;
-  top: 80%;
-  transform: translateY(-50%);
   background: black;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 50%;
-  font-size: 1rem;
-  user-select: none;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
+  font-size: 1.2rem;
 }
 
 .prev-btn:hover, .next-btn:hover {
@@ -200,11 +198,11 @@
   text-align:right;
 }
 
-  .navbar-center {
+.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-  }
+}
    
 .navbar-center {
   position: absolute;

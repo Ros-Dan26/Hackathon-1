@@ -34,7 +34,7 @@ nextBtn.addEventListener('click', () => {
 setInterval(() => {
   currentIndex = (currentIndex + 1) % res.length;
   showReview(currentIndex);
-}, 5000);
+}, 10000);
 
 //Botones
 function mostrarContenedor(idMostrar) {
