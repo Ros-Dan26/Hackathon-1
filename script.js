@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     this.classList.add('btn-azul-personalizado');
     
   });
+ 
 });
 const res = document.querySelectorAll('.res');
 const prevBtn = document.querySelector('.prev-btn'); 
