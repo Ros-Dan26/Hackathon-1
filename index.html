@@ -23,55 +23,55 @@
 <body>
   <!-- NAVEGACIÓN/MENÚ -->
   <nav class="navbar navbar-expand-lg navbar-light shadow-lg mb-2" style="background-color: #C4E1E6 ;">
-      <div class="container-fluid">
-          <div class="row w-100 align-items-center">
+    <div class="container-fluid">
+      <div class="row w-100 align-items-center">
 
-              <!-- Logo -->
-              <div class="col-6 col-lg-2">
-                  <a class="navbar-brand fw-bold titulo-logo" href="#">5SPORT</a>
-              </div>
+        <!-- Logo -->
+        <div class="col-6 col-lg-2">
+            <a class="navbar-brand fw-bold titulo-logo" href="#">5SPORT</a>
+        </div>
 
-              <!-- Menú hamburguesa -->
-              <div class="col-6 d-lg-none text-end">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#navbarSupportedContent">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-              </div>
+        <!-- Menú hamburguesa -->
+        <div class="col-6 d-lg-none text-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
-              <!-- Links de navegación -->
-              <div class="col-12 col-lg-10">
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                      <ul class="navbar-nav ms-auto d-flex align-items-center gap-3">
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Inicio</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Ofertas</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Nuevos Productos</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Favoritos</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Inicia Sesión</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="btn btn-dark" href="#">Regístrate</a>
-                          </li>
-                          <a>
-                              <button type="button" class="btn"><img src="Pic/cart.png"></button>
-                          </a>
-
-                      </ul>
-                  </div>
-              </div>
-
+        <!-- Links de navegación -->
+        <div class="col-12 col-lg-10">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto d-flex align-items-center gap-3">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Nuevos Productos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Favoritos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Inicia Sesión</a>
+              </li>
+              <li class="nav-item">
+                  <a class="btn btn-dark" href="#">Regístrate</a>
+              </li>
+              <a>
+                  <button type="button" class="btn"><img src="Pic/cart.png"></button>
+              </a>
+            </ul>
           </div>
+        </div>
+
       </div>
+    </div>
   </nav>
+
   <!-- PORTADA/HERO SECTION -->
   <section id="portada" class="my-2">
       <!-- Aquí va tu portada principal -->
@@ -88,7 +88,6 @@
 
   <!-- OFERTAS DEL MES -->
   <section id="ofertas">
-    <!-- Aquí van las ofertas del mes -->
               <div class="container my-5"> 
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"> 
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"> 
@@ -146,469 +145,467 @@
 
    
   <!-- SECCIÓN ENVÍO GRATIS  -->
-<section id="envio-gratis" class="bg-powder-blue my-5 py-5">
+  <section id="envio-gratis" class="bg-powder-blue my-5 py-5">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8 text-center">
-                <h2 class="fuenteTitulos mb-3">¡Envío GRATIS en tu primera compra!</h2>
-                <p class="fuenteTexto mb-4">Además, contamos con envío exprés.</p>
-                <button id="botonRegistro" class="btn btn-dark btn-lg px-4 mt-5">Regístrate ahora</button>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+          <h2 class="fuenteTitulos mb-3">¡Envío GRATIS en tu primera compra!</h2>
+          <p class="fuenteTexto mb-4">Además, contamos con envío exprés.</p>
+          <button id="botonRegistro" class="btn btn-dark btn-lg px-4 mt-5">Regístrate ahora</button>
         </div>
+      </div>
     </div>
-</section>
+  </section>
+
   <!-- PRODUCTOS DESTACADOS -->
-
-<div class="container-fluid"> <br>
-        <h1 style="text-align:center" class="fuenteTitulos">Destacados</h1>
-        <h6 style="text-align:center" class="fuenteSub">Tus estilos favoritos, ahora con precios especiales.</h6> <br>
-
-
-        <!--***********************************PANEL DE BOTONES*************************************************************-->
-
-        <nav class="navbar bg-body-tertiary">
-            <form class="container-fluid justify-content-center">
-                <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;" type="button"
-                    onclick="mostrarContenedor('Hombres')">Hombre</button>
-                <button class="btn btn-dark me-3" style="width: 150px; height:50px;" type="button"
-                    onclick="mostrarContenedor('Mujeres')">Mujer</button>
-                <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;" type="button"
-                    onclick="mostrarContenedor('Niños')">Niño/a</button>
-                <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;" type="button"
-                    onclick="mostrarContenedor('Accesorios')">Accesosrios</button>
-                <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;"
-                    type="button">Rebajas</button>
-            </form>
-        </nav>
+  <section>
+    <div class="container-fluid"> <br>
+      <h1 style="text-align:center" class="fuenteTitulos">Destacados</h1>
+      <h6 style="text-align:center" class="fuenteSub">Tus estilos favoritos, ahora con precios especiales.</h6> <br>
 
 
-        <!--**********************************PRODUCTOS EN CARDS*************************************************************-->
-        <div id="Mujeres">
-            <div class="container d-flex justify-content-center " style="display: flex;">
-                <div class="row justify-content-center">
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://resources.claroshop.com/medios-plazavip/fotos/productos_sears1/original/4339266.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Sudadera</h5>
-                                <p class="marcas">Adidas</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.8k) Reseñas de clientes.</p>
-                                <h4>$600</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+      <!--***********************************PANEL DE BOTONES*************************************************************-->
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://dpjye2wk9gi5z.cloudfront.net/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/3016060-0000V1.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Sudadera</h5>
-                                <p class="marcas">Puma</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(2.3k) Reseñas de clientes.</p>
-                                <h4>$400</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+      <nav class="navbar bg-body-tertiary">
+          <form class="container-fluid justify-content-center">
+              <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;" type="button"
+                  onclick="mostrarContenedor('Hombres')">Hombre</button>
+              <button class="btn btn-dark me-3" style="width: 150px; height:50px;" type="button"
+                  onclick="mostrarContenedor('Mujeres')">Mujer</button>
+              <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;" type="button"
+                  onclick="mostrarContenedor('Niños')">Niño/a</button>
+              <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;" type="button"
+                  onclick="mostrarContenedor('Accesorios')">Accesosrios</button>
+              <button class="btn btn-outline-secondary me-3" style="width: 150px; height:50px;"
+                  type="button">Rebajas</button>
+          </form>
+      </nav>
+      
+      <!--**********************************PRODUCTOS EN CARDS*************************************************************-->
+      <div id="Mujeres">
+          <div class="container d-flex justify-content-center " style="display: flex;">
+              <div class="row justify-content-center">
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://resources.claroshop.com/medios-plazavip/fotos/productos_sears1/original/4339266.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Sudadera</h5>
+                              <p class="marcas">Adidas</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.8k) Reseñas de clientes.</p>
+                              <h4>$600</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://casadelasbatas.com/63723-large_default/pantalon-jogger-mujer-theory-skechers.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Pantalon deportivo</h5>
-                                <p class="marcas">Sportline</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(5.9k) Reseñas de clientes.</p>
-                                <h4>$130</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://dpjye2wk9gi5z.cloudfront.net/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/3016060-0000V1.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Sudadera</h5>
+                              <p class="marcas">Puma</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(2.3k) Reseñas de clientes.</p>
+                              <h4>$400</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://casadelasbatas.com/63723-large_default/pantalon-jogger-mujer-theory-skechers.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Pantalon deportivo</h5>
+                              <p class="marcas">Sportline</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(5.9k) Reseñas de clientes.</p>
+                              <h4>$130</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://img.kwcdn.com/product/1eed511260/28599bce-3b4d-4bac-9fbb-f80a8931c55a_1200x1200.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Tenis deportivos</h5>
-                                <p class="marcas">Nike</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(9.9k) Reseñas de clientes.</p>
-                                <h4>$1300</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://m.media-amazon.com/images/I/51GCRrvvYwL._AC_SL1001_.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Conjunto</h5>
-                                <p class="marcas">Puma</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.1k) Reseñas de clientes.</p>
-                                <h4>$900</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://img.kwcdn.com/product/1eed511260/28599bce-3b4d-4bac-9fbb-f80a8931c55a_1200x1200.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Tenis deportivos</h5>
+                              <p class="marcas">Nike</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(9.9k) Reseñas de clientes.</p>
+                              <h4>$1300</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://cdn1.coppel.com/images/catalog/mkp/7463/3000/74631108-1.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> SmartWatch</h5>
-                                <p class="marcas">Huawei</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(4.1k) Reseñas de clientes.</p>
-                                <h4>$950</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://m.media-amazon.com/images/I/51GCRrvvYwL._AC_SL1001_.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Conjunto</h5>
+                              <p class="marcas">Puma</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.1k) Reseñas de clientes.</p>
+                              <h4>$900</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://cdn1.coppel.com/images/catalog/mkp/7463/3000/74631108-1.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> SmartWatch</h5>
+                              <p class="marcas">Huawei</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(4.1k) Reseñas de clientes.</p>
+                              <h4>$950</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
-        <div id="Hombres" style="display:none;">
-            <div id="Hombres" class="container d-flex justify-content-center " style="display: flex;">
-                <div class="row justify-content-center">
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://m.media-amazon.com/images/I/61SJ94tiFIL.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5> Sudadera capucha</h5>
-                                <p class="marcas">Amazon</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.8k) Reseñas de clientes.</p>
-                                <h4>$500</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+      <div id="Hombres" style="display:none;">
+          <div id="Hombres" class="container d-flex justify-content-center " style="display: flex;">
+              <div class="row justify-content-center">
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://m.media-amazon.com/images/I/61SJ94tiFIL.jpg" class="card-img-top"
+                              alt="...">
+                          <div class="card-body">
+                              <h5> Sudadera capucha</h5>
+                              <p class="marcas">Amazon</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.8k) Reseñas de clientes.</p>
+                              <h4>$500</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://contents.mediadecathlon.com/p2732158/k$36218f28a8e2460eee8a1a267bad9979/sudadera-fitness-training-negro-liso.jpg?format=auto&quality=40&f=800x800"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Sudadera</h5>
-                                <p class="marcas">Nike</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(2.3k) Reseñas de clientes.</p>
-                                <h4>$700</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://contents.mediadecathlon.com/p2732158/k$36218f28a8e2460eee8a1a267bad9979/sudadera-fitness-training-negro-liso.jpg?format=auto&quality=40&f=800x800"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Sudadera</h5>
+                              <p class="marcas">Nike</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(2.3k) Reseñas de clientes.</p>
+                              <h4>$700</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750052720101L.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Pantalon deportivo</h5>
-                                <p class="marcas">Sportline</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(5.9k) Reseñas de clientes.</p>
-                                <h4>$230</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750052720101L.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Pantalon deportivo</h5>
+                              <p class="marcas">Sportline</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(5.9k) Reseñas de clientes.</p>
+                              <h4>$230</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
+                  <!--**************************************************************************************************************-->
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://fredzapaterias.com.mx/cdn/shop/files/Tenis-Deportivos-para-Hombre-Under-Armour-3026727003-black-castlerock-white-unico-lateral_1a46f3da-4036-499c-a6d4-ed45afb03640.jpg?v=1713817366"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Tenis deportivos</h5>
-                                <p class="marcas">Under</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(9.9k) Reseñas de clientes.</p>
-                                <h4>$1000</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://fredzapaterias.com.mx/cdn/shop/files/Tenis-Deportivos-para-Hombre-Under-Armour-3026727003-black-castlerock-white-unico-lateral_1a46f3da-4036-499c-a6d4-ed45afb03640.jpg?v=1713817366"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Tenis deportivos</h5>
+                              <p class="marcas">Under</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(9.9k) Reseñas de clientes.</p>
+                              <h4>$1000</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://pakar.com/cdn/shop/files/110964.jpg?v=1750875472" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5> Conjunto</h5>
-                                <p class="marcas">Puma</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.1k) Reseñas de clientes.</p>
-                                <h4>$900</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://pakar.com/cdn/shop/files/110964.jpg?v=1750875472" class="card-img-top"
+                              alt="...">
+                          <div class="card-body">
+                              <h5> Conjunto</h5>
+                              <p class="marcas">Puma</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.1k) Reseñas de clientes.</p>
+                              <h4>$900</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://down-mx.img.susercontent.com/file/sg-11134201-7rcev-lsbf0tkj687x50"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> SmartWatch</h5>
-                                <p class="marcas">Honor</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(4.1k) Reseñas de clientes.</p>
-                                <h4>$950</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://down-mx.img.susercontent.com/file/sg-11134201-7rcev-lsbf0tkj687x50"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> SmartWatch</h5>
+                              <p class="marcas">Honor</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(4.1k) Reseñas de clientes.</p>
+                              <h4>$950</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
 
 
-        <div id="Niños" style="display:none;">
-            <div class="container d-flex justify-content-center " style="display: flex;">
-                <div class="row justify-content-center">
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://ae01.alicdn.com/kf/Sa47e65d7eee64621a5e7b897fdae452af/Kids-Autumn-Spring-Trend-Casual-Tracksuits-3-14-Years-Boys-and-Girls-Hoodie-Pants-2pcs-Suits.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Sudadera capucha</h5>
-                                <p class="marcas">Fila</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.8k) Reseñas de clientes.</p>
-                                <h4>$300</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://carretera-austral.cl/wp-content/uploads/2023/05/Poleron-Nino-Mickey-Enojado-Gris-Disney.jpg.webp"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Sudadera</h5>
-                                <p class="marcas">Disney</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(2.3k) Reseñas de clientes.</p>
-                                <h4>$900</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+      <div id="Niños" style="display:none;">
+          <div class="container d-flex justify-content-center " style="display: flex;">
+              <div class="row justify-content-center">
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://ae01.alicdn.com/kf/Sa47e65d7eee64621a5e7b897fdae452af/Kids-Autumn-Spring-Trend-Casual-Tracksuits-3-14-Years-Boys-and-Girls-Hoodie-Pants-2pcs-Suits.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Sudadera capucha</h5>
+                              <p class="marcas">Fila</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.8k) Reseñas de clientes.</p>
+                              <h4>$300</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://i5.walmartimages.com/asr/7395f110-4bff-4029-aeff-1cd7a3e2d3d5.6b377a8189f6c7e6cc0292ee6c88151c.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF&format=avif"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Conjunto Jordan</h5>
-                                <p class="marcas">Jordan</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(5.9k) Reseñas de clientes.</p>
-                                <h4>$780</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://carretera-austral.cl/wp-content/uploads/2023/05/Poleron-Nino-Mickey-Enojado-Gris-Disney.jpg.webp"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Sudadera</h5>
+                              <p class="marcas">Disney</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(2.3k) Reseñas de clientes.</p>
+                              <h4>$900</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://i5.walmartimages.com/asr/7395f110-4bff-4029-aeff-1cd7a3e2d3d5.6b377a8189f6c7e6cc0292ee6c88151c.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF&format=avif"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Conjunto Jordan</h5>
+                              <p class="marcas">Jordan</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(5.9k) Reseñas de clientes.</p>
+                              <h4>$780</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://img.kwcdn.com/product/fancy/d3bf3ac1-3106-40a9-8421-5f512a06b93b.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Tenis deportivos</h5>
-                                <p class="marcas">Under</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(9.9k) Reseñas de clientes.</p>
-                                <h4>$400</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1734364382-regalos-de-futbol-03-67604ccc99e7d.jpg?crop=1xw:1xh;center,top&resize=980:*"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Linterna balon</h5>
-                                <p class="marcas">Steren</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.1k) Reseñas de clientes.</p>
-                                <h4>$500</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://img.kwcdn.com/product/fancy/d3bf3ac1-3106-40a9-8421-5f512a06b93b.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Tenis deportivos</h5>
+                              <p class="marcas">Under</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(9.9k) Reseñas de clientes.</p>
+                              <h4>$400</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://m.media-amazon.com/images/I/81LcEBpd3iL._UF1000,1000_QL80_.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Balones</h5>
-                                <p class="marcas">FIFA</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(4.1k) Reseñas de clientes.</p>
-                                <h4>$700</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1734364382-regalos-de-futbol-03-67604ccc99e7d.jpg?crop=1xw:1xh;center,top&resize=980:*"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Linterna balon</h5>
+                              <p class="marcas">Steren</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.1k) Reseñas de clientes.</p>
+                              <h4>$500</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
 
-
-
-        <div id="Accesorios" style="display:none;">
-            <div class="container d-flex justify-content-center " style="display: flex;">
-                <div class="row justify-content-center">
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://api.deporprive.app/storage/hub/images/108136/home_default/4780973198.webp"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Balon</h5>
-                                <p class="marcas">Nike</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.8k) Reseñas de clientes.</p>
-                                <h4>$400</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://www.redlemon.com.mx/cdn/shop/files/01_2e27a9b0-6789-4ddb-ab91-40c6561407e8.jpg?v=1736952105&width=533"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Mochila</h5>
-                                <p class="marcas">Puma</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(2.3k) Reseñas de clientes.</p>
-                                <h4>$900</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://img.joomcdn.net/3a21e068623c52ef1bf91b97f8b436e8fe512b0b_1024_1024.jpeg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Espinilleras</h5>
-                                <p class="marcas">FILA</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(5.9k) Reseñas de clientes.</p>
-                                <h4>$300</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--**************************************************************************************************************-->
-
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://chapurmx.vtexassets.com/arquivos/ids/417406-800-auto?v=638672924688570000&width=800&height=auto&aspect=true"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Playera</h5>
-                                <p class="marcas">Adidas</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(9.9k) Reseñas de clientes.</p>
-                                <h4>$600</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://assets.suburbia.com.mx/assets/digital/landings/deportes/2025/blp_deportes_novedades_0625.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Pesas</h5>
-                                <p class="marcas">World</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(6.1k) Reseñas de clientes.</p>
-                                <h4>$1500</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--**************************************************************************************************************-->
-                    <div class="col-md-auto mt-2 mb-2">
-                        <div class="card" style="width: 23rem; height: 40rem;">
-                            <img src="https://imagedelivery.net/0tt38OLkrSmHRt7hdItWEA/866b91c5-d2b9-4bc4-70bf-9280b9d71e00/public"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5> Raqueta</h5>
-                                <p class="marcas">Wilson</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="marcas">(4.1k) Reseñas de clientes.</p>
-                                <h4>$750</h4>
-                                <p class="unidades">Quedan pocas unidades</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://m.media-amazon.com/images/I/81LcEBpd3iL._UF1000,1000_QL80_.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Balones</h5>
+                              <p class="marcas">FIFA</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(4.1k) Reseñas de clientes.</p>
+                              <h4>$700</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
 
-        <div class="navbar-center" style="margin:15px">
-            <button class="btn btn-dark custom-btn btn-lg px-5">Ver Más</button>
-        </div>
+      <div id="Accesorios" style="display:none;">
+          <div class="container d-flex justify-content-center " style="display: flex;">
+              <div class="row justify-content-center">
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://api.deporprive.app/storage/hub/images/108136/home_default/4780973198.webp"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Balon</h5>
+                              <p class="marcas">Nike</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.8k) Reseñas de clientes.</p>
+                              <h4>$400</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://www.redlemon.com.mx/cdn/shop/files/01_2e27a9b0-6789-4ddb-ab91-40c6561407e8.jpg?v=1736952105&width=533"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Mochila</h5>
+                              <p class="marcas">Puma</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(2.3k) Reseñas de clientes.</p>
+                              <h4>$900</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://img.joomcdn.net/3a21e068623c52ef1bf91b97f8b436e8fe512b0b_1024_1024.jpeg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Espinilleras</h5>
+                              <p class="marcas">FILA</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(5.9k) Reseñas de clientes.</p>
+                              <h4>$300</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--**************************************************************************************************************-->
+
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://chapurmx.vtexassets.com/arquivos/ids/417406-800-auto?v=638672924688570000&width=800&height=auto&aspect=true"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Playera</h5>
+                              <p class="marcas">Adidas</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(9.9k) Reseñas de clientes.</p>
+                              <h4>$600</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://assets.suburbia.com.mx/assets/digital/landings/deportes/2025/blp_deportes_novedades_0625.jpg"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Pesas</h5>
+                              <p class="marcas">World</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(6.1k) Reseñas de clientes.</p>
+                              <h4>$1500</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--**************************************************************************************************************-->
+                  <div class="col-md-auto mt-2 mb-2">
+                      <div class="card" style="width: 23rem; height: 40rem;">
+                          <img src="https://imagedelivery.net/0tt38OLkrSmHRt7hdItWEA/866b91c5-d2b9-4bc4-70bf-9280b9d71e00/public"
+                              class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5> Raqueta</h5>
+                              <p class="marcas">Wilson</p>
+                              <p>⭐⭐⭐⭐⭐</p>
+                              <p class="marcas">(4.1k) Reseñas de clientes.</p>
+                              <h4>$750</h4>
+                              <p class="unidades">Quedan pocas unidades</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
+
+      <div class="navbar-center" style="margin:15px">
+          <button class="btn btn-dark custom-btn btn-lg px-5">Ver Más</button>
+      </div>
     </div>
   </section>
 
@@ -626,6 +623,7 @@
       </div>
     </div>
   </section>
+
   <!-- RESEÑAS -->
   <section class="resenias">
     <!-- Aquí van las reseñas de clientes -->
@@ -660,55 +658,52 @@
   </section>
 
   <!-- FOOTER -->
-  <footer>
-     <!-- FOOTER -->
-  <!-- FOOTER -->
-<footer class="bg-footer text-dark py-3">
-  <div class="container">
-    <div class="d-flex flex-wrap justify-content-center gap-4 align-items-center text-center text-md-start">
-      
-      <!-- Logo 5PORT -->
-      <div class="d-flex align-items-center">
-        <span class="titulo-logo">5PORT</span>
+  <footer class="bg-footer text-dark py-3">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-center gap-4 align-items-center text-center text-md-start">
+        
+        <!-- Logo 5PORT -->
+        <div class="d-flex align-items-center">
+          <span class="titulo-logo">5PORT</span>
+        </div>
+
+        <!-- Correo -->
+        <div class="d-flex align-items-center">
+          <img src="Pic/correo.png" alt="correo" width="20" class="me-2">
+          <span>contacto@5port.com</span>
+        </div>
+
+        <!-- Teléfono -->
+        <div class="d-flex align-items-center">
+          <img src="Pic/phone.png" alt="teléfono" width="20" class="me-2">
+          <span>569867490</span>
+        </div>
+
+        <!-- Preguntas frecuentes -->
+        <div class="d-flex align-items-center">
+          <img src="Pic/privacidad.png" alt="FAQ" width="20" class="me-2">
+          <span>Preguntas y respuestas</span>
+        </div>
+
+        <!-- Políticas de privacidad -->
+        <div class="d-flex align-items-center">
+          <img src="Pic/data-privacy_icon-icons.com_71694.png" alt="Políticas" width="20" class="me-2">
+          <span>Políticas de privacidad</span>
+        </div>
+
+        <!-- Redes sociales -->
+        <div class="d-flex align-items-center gap-2">
+          <img src="Pic/instagram.png" alt="Instagram" width="24">
+          <img src="Pic/whatsapp.png" alt="WhatsApp" width="24">
+          <img src="Pic/tiktok.png" alt="TikTok" width="24">
+          <img src="Pic/fb.png" alt="Facebook" width="24">
+        </div>
       </div>
 
-      <!-- Correo -->
-      <div class="d-flex align-items-center">
-        <img src="Pic/correo.png" alt="correo" width="20" class="me-2">
-        <span>contacto@5port.com</span>
+      <!-- Línea inferior -->
+      <div class="text-center mt-3 fuenteTexto">
+        2025 5PORT. Todos los derechos reservados.
       </div>
-
-      <!-- Teléfono -->
-      <div class="d-flex align-items-center">
-        <img src="Pic/phone.png" alt="teléfono" width="20" class="me-2">
-        <span>569867490</span>
-      </div>
-
-      <!-- Preguntas frecuentes -->
-      <div class="d-flex align-items-center">
-        <img src="Pic/privacidad.png" alt="FAQ" width="20" class="me-2">
-        <span>Preguntas y respuestas</span>
-      </div>
-
-      <!-- Políticas de privacidad -->
-      <div class="d-flex align-items-center">
-        <img src="Pic/data-privacy_icon-icons.com_71694.png" alt="Políticas" width="20" class="me-2">
-        <span>Políticas de privacidad</span>
-      </div>
-
-      <!-- Redes sociales -->
-      <div class="d-flex align-items-center gap-2">
-        <img src="Pic/instagram.png" alt="Instagram" width="24">
-        <img src="Pic/whatsapp.png" alt="WhatsApp" width="24">
-        <img src="Pic/tiktok.png" alt="TikTok" width="24">
-        <img src="Pic/fb.png" alt="Facebook" width="24">
-      </div>
-
-    </div>
-
-    <!-- Línea inferior -->
-    <div class="text-center mt-3 fuenteTexto">
-      2025 5PORT. Todos los derechos reservados.
     </div>
   </footer>
 
